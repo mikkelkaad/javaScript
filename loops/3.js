@@ -1,22 +1,23 @@
 //  3
-//  Here is some repetition from Datatypes.
-//  We want to implement the resting while loop from the previous lesson.
-//  But this time let's make it a method of the hero object.
+//  We imagine our hero is hurt and must rest to regain his hp
 
 const hero = {
     name: "John",
     age: 20,
     wallet:[10,15,27],
     level: 1,
-    hp: 1,
+    hp: 5,
     maxHp: 5
 };
 
-//  Remember the 'this' keyword
-hero.rest = ?
 
-console.log('The hero is hurt. Their hp is ' + hero.hp);
+//  Our hero is hurt and their hp is set to 1
+hero.hp = 1;
 
-hero.rest();
+//  The hero is resting. Complete the while loop so we get the fully rested log.
+//  NOTE if the loop does not finish we can terminate the terminal with CTRL + C (Windows)
+while(hero.hp < hero.maxHp){
 
-console.log('After resting the hero is back to ' + hero.hp + '/' + hero.maxHp + ' hp');
+};
+
+console.log('The hero is fully rested');

@@ -1,8 +1,6 @@
 //  1
-//  Use the for loop to console.log all the elements in the wallet array.
+//  Complete the for loop to console.log numbers from 0-9
 
-let wallet = [10,15,27];
-
-for (i = 0; i < wallet.length; i++){
-    console.log('The wallet contains an element: ' + ?);
+for (){
+    console.log(i);
 };
